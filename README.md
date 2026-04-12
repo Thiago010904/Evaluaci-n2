@@ -29,7 +29,14 @@ Por motivos de seguridad y buenas prácticas, la contraseña real y la direcció
 
 Para que el proyecto les funcione en sus computadoras locales sin errores de base de datos, sigan estos pasos una vez hagan el `git clone` o `git pull`:
 
+
+### Como iniciar la app
+La app se inicia con el comando:
+
+ uvicorn main:app --reload
+
 ### 1. Activar entorno virtual e instalar dependencias
 Asegúrense de tener el entorno virtual activo y ejecuten:
 ```bash
 pip install -r requirements.txt
+

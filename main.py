@@ -12,3 +12,4 @@ Base.metadata.create_all(bind=engine)
 
 app.include_router(personal_router)
 app.include_router(formacion_router)
+
